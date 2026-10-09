@@ -1,0 +1,26 @@
+name: pm_garage
+description: แอปพลิเคชันบันทึกใบสั่งซ่อมที่ตรวจสอบได้และประวัติการซ่อมบำรุงรถ (พัชรินทร์มอเตอร์)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  # ต้องใช้ Flutter 3.27 ขึ้นไป (Dart 3.6+) เพราะใช้ CardThemeData
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.3
+  sqflite_common_ffi_web: any
+  path: ^1.9.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
